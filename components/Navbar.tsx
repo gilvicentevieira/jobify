@@ -1,8 +1,17 @@
+import LinksDropdown from './LinksDropdown';
+import { UserButton } from '@clerk/nextjs';
+import ThemeToggle from './ThemeToggle';
+
 const Navbar = () => {
+
     return (
-      <div className='text-4xl'>
-        Navbar
-      </div>
+      <nav className='bg-muted py-4 sm:px-16 lg:px-24 px-4 flex items-center justify-between'>
+        <LinksDropdown />
+        <div className='flex items-center gap-x-4'>
+          <ThemeToggle/>
+          <UserButton afterSignOutUrl='/'/>
+        </div>
+      </nav>
     )
   }
   
