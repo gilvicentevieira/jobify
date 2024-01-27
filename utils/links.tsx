@@ -11,3 +11,4 @@ const links: NavLink[] = [
     {href: '/jobs', label: 'jobs', icon: <AppWindow/>},
     {href: '/stats', label: 'stats', icon: <AreaChart/>},
 ]
+export default links
