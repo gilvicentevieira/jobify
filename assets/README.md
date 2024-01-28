@@ -2403,6 +2403,8 @@ export default EditJobForm;
 - create seed.js
 - run "node prisma/seed"
 
+user_2bXPKqWPUB8nCy4GSosilXZFFq9
+
 ```js
 const { PrismaClient } = require('@prisma/client');
 const data = require('./mock-data.json');
