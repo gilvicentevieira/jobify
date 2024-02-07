@@ -2,9 +2,21 @@
 
 ###### An application to log all your job applications
 
-This application allows you to log a job application
-To consult all your job applications where you can see the Position, Company name, place and application status
-It also allows you to visualize a graph displaying your job applications through time
+This application allows you to:
+- Log a job application
+- Consult all your job applications where you can see the Position, Company name, place and application status
+- Visualize a graph displaying your job applications through time
+
+Built with:
+ - Next.js
+ - Typescript
+ - Clerk for authentication
+ - Prisma as database
+ - TailwindCSS for styling
+ - RadixUI as UI library
+ - Recharts for chart display
+
+
 
 &nbsp;
 [![SC40p.gif](https://s13.gifyu.com/images/SC40p.gif)](https://gifyu.com/image/SC40p)
