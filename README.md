@@ -5,7 +5,7 @@
 This application allows you to:
 - Log a job application
 - Consult all your job applications where you can see the Position, Company name, place and application status
-- Visualize a graph displaying your job applications through time
+- Visualize a graph displaying your job applications throughout time
 
 Built with:
  - Next.js
